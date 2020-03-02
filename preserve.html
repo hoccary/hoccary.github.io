@@ -304,7 +304,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x884C;&#x5185;&#x65B9;&#x6CD5;preserve">&#x884C;&#x5185;&#x65B9;&#x6CD5;(preserve)</h1>
-<h2 id="token">Token</h2>
+<h2 id="token&#x76F8;&#x5173;">Token&#x76F8;&#x5173;</h2>
 <h3 id="gettoken">getToken</h3>
 <ul>
 <li><p>&#x83B7;&#x53D6;H5&#x7684;token&#x4EE5;&#x4FBF;&#x8BF7;&#x6C42;SAP&#x767B;&#x5F55;&#x63A5;&#x53E3;</p>
@@ -385,7 +385,7 @@
 </ol>
 </li>
 </ul>
-<h2 id="tokeninvalid---&#x65B0;&#x589E;">tokenInvalid - <em>&#x65B0;&#x589E;</em></h2>
+<h3 id="tokeninvalid---&#x65B0;&#x589E;">tokenInvalid - <em>&#x65B0;&#x589E;</em></h3>
 <ul>
 <li><p>&#x5F53;web&#x9875;&#x9762;&#x53D1;&#x73B0;&#x7528;&#x6237;token&#x8FC7;&#x671F;&#x65F6;&#xFF0C;<strong>&#x5FC5;&#x987B;</strong>&#x8C03;&#x7528;tokenInvalid&#x65B9;&#x6CD5;&#x901A;&#x77E5;&#x539F;&#x751F;&#x767B;&#x5F55;&#x72B6;&#x6001;&#x5DF2;&#x5931;&#x6548;&#x3002;</p>
 </li>
@@ -394,8 +394,59 @@
 <li><p>&#x65E0;&#x56DE;&#x8C03;&#x53C2;&#x6570;</p>
 </li>
 </ul>
-<h2 id="&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F;">&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F;</h2>
-<h3 id="changeloginpasswordsuccess">changeLoginPasswordSuccess</h3>
+<h2 id="&#x5411;&#x539F;&#x751F;app&#x53D1;&#x9001;&#x6D88;&#x606F;&#x901A;&#x77E5;">&#x5411;&#x539F;&#x751F;APP&#x53D1;&#x9001;&#x6D88;&#x606F;&#x901A;&#x77E5;</h2>
+<h3 id="postnotification">postNotification</h3>
+<ul>
+<li><p>&#x5411;&#x539F;&#x751F;&#x53D1;&#x9001;&#x6D88;&#x606F;&#x901A;&#x77E5;&#xFF0C;&#x539F;&#x751F;&#x5C06;&#x6839;&#x636E;&#x6D88;&#x606F;&#x5185;&#x5BB9;&#x505A;&#x76F8;&#x5E94;&#x64CD;&#x4F5C;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x6D88;&#x606F;&#x901A;&#x77E5;&#x5E94;&#x5F53;&#x4E0E;&#x539F;&#x751F;&#x63D0;&#x524D;&#x7EA6;&#x5B9A;&#x3002;&#x4E00;&#x822C;&#x7528;&#x4F5C;H5&#x53D1;&#x751F;&#x4E86;&#x67D0;&#x4E00;&#x4E8B;&#x4EF6;&#x901A;&#x77E5;&#x539F;&#x751F;&#x66F4;&#x65B0;&#x6570;&#x636E;&#x3002;</p>
+</li>
+<li><p>&#x4F20;&#x5165;&#x53C2;&#x6570;</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x4F20;&#x5165;&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">notificationName</td>
+<td style="text-align:left">&#x6D88;&#x606F;&#x540D;&#x79F0;</td>
+</tr>
+<tr>
+<td style="text-align:left">data</td>
+<td style="text-align:left">&#x6D88;&#x606F;&#x6240;&#x5E26;&#x53C2;&#x6570;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#x65E0;&#x56DE;&#x8C03;&#x53C2;&#x6570;</li>
+</ul>
+<p><strong>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7684;&#x6D88;&#x606F;&#x540D;&#x79F0;</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x6D88;&#x606F;&#x540D;&#x79F0;</th>
+<th style="text-align:left">data</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">loginPasswordChanged</td>
+<td style="text-align:left">&#x65E0;</td>
+<td style="text-align:left">&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F;</td>
+</tr>
+<tr>
+<td style="text-align:left">punchedIn</td>
+<td style="text-align:left">&#x65E0;</td>
+<td style="text-align:left">&#x7B7E;&#x5230;&#x6210;&#x529F;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F;---&#x5C06;&#x5E9F;&#x5F03;---&#x5408;&#x5E76;&#x81F3;postnotification&#x65B9;&#x6CD5;&#x4E2D;">&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F; - <em>&#x5C06;&#x5E9F;&#x5F03; - &#x5408;&#x5E76;&#x81F3;postNotification&#x65B9;&#x6CD5;&#x4E2D;</em></h2>
+<h3 id="changeloginpasswordsuccess"><em>changeLoginPasswordSuccess</em></h3>
 <ul>
 <li><p>&#x4FEE;&#x6539;&#x91CD;&#x7F6E;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#x6210;&#x529F;&#x540E;H5&#x901A;&#x77E5;APP&#x4FEE;&#x6539;&#x6210;&#x529F;</p>
 </li>
@@ -406,6 +457,149 @@
 <li><p>&#x8BF4;&#x660E;&#xFF1A;H5&#x8C03;&#x7528;APP&#x8BE5;&#x65B9;&#x6CD5;&#xFF0C;&#x901A;&#x77E5;APP&#x5DF2;&#x7ECF;&#x4FEE;&#x6539;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#xFF0C;APP&#x7AEF;&#x5904;&#x7406;&#x767B;&#x5F55;&#x72B6;&#x6001;&#x91CD;&#x65B0;&#x767B;&#x5F55;&#x3002;</p>
 </li>
 </ul>
+<h2 id="&#x6536;&#x94F6;&#x53F0;&#x652F;&#x4ED8;&#x76F8;&#x5173;">&#x6536;&#x94F6;&#x53F0;&#x652F;&#x4ED8;&#x76F8;&#x5173;</h2>
+<h3 id="payment">payment</h3>
+<ul>
+<li><p>&#x6253;&#x5F00;&#x652F;&#x4ED8;&#x9875;&#x9762;&#x5B8C;&#x6210;&#x652F;&#x4ED8;&#x3002;</p>
+</li>
+<li><p>&#x4F20;&#x5165;&#x53C2;&#x6570;&#xFF08;&#x8C03;&#x8D77;&#x652F;&#x4ED8;SDK&#x5FC5;&#x8981;&#x53C2;&#x6570;&#xFF09;</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x4F20;&#x5165;&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">payType</td>
+<td style="text-align:left">&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A;0&#xFF1A;&#x81EA;&#x6709;&#x5361;(ACC)&#x652F;&#x4ED8;&#xFF0C;1 &#xFF1A;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#xFF0C;2&#xFF1A;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x81EA;&#x6709;&#x5361;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;0&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;1&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">appid</td>
+<td style="text-align:left">&#x5E94;&#x7528;ID</td>
+</tr>
+<tr>
+<td style="text-align:left">partnerid</td>
+<td style="text-align:left">&#x5546;&#x6237;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">prepayid</td>
+<td style="text-align:left">&#x9884;&#x652F;&#x4ED8;&#x4EA4;&#x6613;&#x4F1A;&#x8BDD;id</td>
+</tr>
+<tr>
+<td style="text-align:left">mPackage</td>
+<td style="text-align:left">&#x6269;&#x5C55;&#x5B57;&#x6BB5;&#xFF08;&#x56FA;&#x5B9A;&#x503C;Sign=WXPay&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">noncestr</td>
+<td style="text-align:left">&#x968F;&#x673A;&#x5B57;&#x7B26;&#x4E32;</td>
+</tr>
+<tr>
+<td style="text-align:left">timeStamp</td>
+<td style="text-align:left">&#x65F6;&#x95F4;&#x6233;</td>
+</tr>
+<tr>
+<td style="text-align:left">sign</td>
+<td style="text-align:left">&#x7B7E;&#x540D;</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;2&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#x56DE;&#x8C03;&#x53C2;&#x6570;&#xFF08;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x7ED3;&#x679C;&#xFF09;</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x4F20;&#x5165;&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">payType</td>
+<td style="text-align:left">&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A;0&#xFF1A;&#x81EA;&#x6709;&#x5361;(ACC)&#x652F;&#x4ED8;&#xFF0C;1 &#xFF1A;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#xFF0C;2&#xFF1A;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x81EA;&#x6709;&#x5361;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;0&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;1&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">merchantNo</td>
+<td style="text-align:left">&#x5546;&#x6237;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">orderNo</td>
+<td style="text-align:left">&#x8BA2;&#x5355;&#x53F7;</td>
+</tr>
+<tr>
+<td style="text-align:left">deviceIP</td>
+<td style="text-align:left">&#x8BBE;&#x5907;IP</td>
+</tr>
+<tr>
+<td style="text-align:left">---</td>
+<td style="text-align:left"><strong>&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;&#x53C2;&#x6570;&#xFF08;payType = &apos;2&apos; &#x65F6;&#xFF09;</strong> ---</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+<td style="text-align:left">&#x6682;&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;
+&#x8FDB;&#x5165;&#x6536;&#x94F6;&#x53F0;&#x524D;&#xFF0C;&#x8BF7;&#x76D1;&#x542C;onDocumentLoaded&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5546;&#x54C1;&#x9875;&#x9762;&#x901A;&#x8FC7;bussiness-openCashier&#x65B9;&#x6CD5;&#x4F20;&#x9012;&#x6765;&#x7684;&#x53C2;&#x6570;&#x3002;</li>
+</ul>
+<p>&#x652F;&#x4ED8;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x6536;&#x94F6;&#x53F0;&#x53EF;&#x4EE5;&#x8C03;&#x7528;navigateBack&#x5173;&#x95ED;&#x6536;&#x94F6;&#x53F0;&#xFF0C;&#x540C;&#x65F6;&#x56DE;&#x8C03;&#x4F20;&#x9012;&#x53C2;&#x6570;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">payStatus</td>
+<td style="text-align:left">payStatus&#x652F;&#x4ED8;&#x72B6;&#x6001;&#xFF08;&#x201C;0&#x201D;&#x5931;&#x8D25;&#xFF1B;&#x201C;1&#x201D;&#x6210;&#x529F;&#xFF1B;&#x201C;3&#x201D;&#x4E0D;&#x652F;&#x6301;&#x6216;&#x8005;&#x672A;&#x5B89;&#x88C5;&#x5FAE;&#x4FE1;&#xFF1B;&#x201C;4&#x201D;&#x5FAE;&#x4FE1;&#x652F;&#x6301;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">payType</td>
+<td style="text-align:left">&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#xFF1A;0&#xFF1A;&#x81EA;&#x6709;&#x5361;(ACC)&#x652F;&#x4ED8;&#xFF0C;1 &#xFF1A;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#xFF0C;2&#xFF1A;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4EA4;&#x6613;&#x9875;&#x9762;&#x4F1A;&#x5728;onPageShow&#x65B9;&#x6CD5;&#x4E2D;&#x63A5;&#x6536;&#x5230;&#x8FD9;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x3002;</p>
 
                                 
                                 </section>
@@ -449,7 +643,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"行内方法（preserve）","level":"1.2","depth":1,"next":{"title":"基础（basic）","level":"1.3","depth":1,"path":"basic.md","ref":"basic.md","articles":[]},"previous":{"title":"介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"preserve.md","mtime":"2020-03-02T00:55:21.658Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-02T01:04:03.245Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"行内方法（preserve）","level":"1.2","depth":1,"next":{"title":"基础（basic）","level":"1.3","depth":1,"path":"basic.md","ref":"basic.md","articles":[]},"previous":{"title":"介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"preserve.md","mtime":"2020-03-02T08:50:15.115Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-02T08:50:21.335Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
